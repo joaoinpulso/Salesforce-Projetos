@@ -1,0 +1,39 @@
+<!-- HTML Template demo2.html -->
+<!--<template>
+    <lightning-card title="Basic DOM Example" icon-name="utility:hierarchy">
+        <div class="slds-card__body slds-card__body-inner">
+            <p>
+                <lightning-formatted-text value={text}></lightning-formatted-text>
+            </p>
+            <p>
+                <lightning-input onchange={handleChange} label="Input Text" value={text}></lightning-input>
+            </p>
+        </div>
+    </lightning-card>
+</template>-->
+
+<template>
+    <lightning-card title="Conditional Rendering with Button" icon-name="utility:hierarchy">
+        <div class="slds-card__body slds-card__body_inner">
+            <p>
+                <template lwc:if={show}>
+                    Peek-a-boo!
+                </template>
+                <template lwc:else>
+                    I'm hiding!
+                </template>
+            </p>
+
+            <lightning-button onclick={handleClick} variant="neutral" label="Switch"></lightning-button>
+        </div>
+
+        <div class="slds-card__body slds-card__body_inner">
+            <p>
+                <lightning-formatted-text value={texto}></lightning-formatted-text>
+            </p>
+            <p>
+                <lightning-input onchange={handleChange} label="Input Text" value={texto}></lightning-input>
+            </p>
+        </div>
+    </lightning-card>
+</template>

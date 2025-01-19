@@ -1,0 +1,28 @@
+<template>
+    <lightning-card title="cepLookup/CepService" icon-name="utility:search">
+        <div class="slds-p-horizontal_medium">
+            <lightning-input
+                label="CEP"
+                type="text"
+                maxlength="8"
+                onchange={handleCepChange}
+                placeholder="Digite o CEP"
+            ></lightning-input>
+        </div>
+        
+        <template if:true={addressFound}>
+            <div class="slds-m-top_medium slds-p-horizontal_medium">
+                <p><strong>Rua:</strong> {address.logradouro}</p>
+                <p><strong>Bairro:</strong> {address.bairro}</p>
+                <p><strong>Cidade:</strong> {address.localidade}</p>
+                <p><strong>Estado:</strong> {address.uf}</p>
+            </div>
+        </template>
+
+        <template if:true={error}>
+            <div class="slds-m-top_medium slds-p-horizontal_medium slds-text-color_error">
+                {error}
+            </div>
+        </template>
+    </lightning-card>
+</template>

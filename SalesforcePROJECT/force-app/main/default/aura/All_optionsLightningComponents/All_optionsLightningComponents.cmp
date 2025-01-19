@@ -1,0 +1,45 @@
+<aura:component controller="AccountLC" implements="force:appHostable,flexipage:availableForAllPageTypes" access="global">
+    <!-- Atributo para armazenar a lista de contas -->
+    <aura:attribute name="accounts" type="Account[]" />
+    
+    <!-- Atributo para armazenar a conta selecionada -->
+    <aura:attribute name="selectedAccount" type="Account" />
+
+    <!-- Inicializa a lista de contas quando o componente é carregado -->
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+
+    <!-- Título -->
+    <lightning:card title="Dados Conta" iconName="standard:account">
+        <aura:set attribute="actions">
+            <!-- Botão para recarregar a lista de contas -->
+            <lightning:button label="Refresh" onclick="{!c.handleRefresh}" />
+        </aura:set>
+
+        <!-- Tabela para exibir a lista de contas -->
+        <aura:if isTrue="{!v.accounts.length > 0}">
+            <lightning:datatable
+                data="{!v.accounts}"
+                keyField="Id"
+                columns="[
+                    { label: 'Account Name', fieldName: 'Name', type: 'text' },
+                    { label: 'Industry', fieldName: 'Industry', type: 'text' },
+                    { label: 'Annual Revenue', fieldName: 'AnnualRevenue', type: 'currency' }
+                ]"
+                hideCheckboxColumn="true"
+                onrowaction="{!c.handleRowAction}" />
+        </aura:if>
+        
+        <aura:if isTrue="{!v.accounts.length == 0}">
+            <p>No accounts found.</p>
+        </aura:if>
+    </lightning:card>
+
+    <!-- Exibir os detalhes da conta selecionada -->
+    <aura:if isTrue="{!v.selectedAccount}">
+        <lightning:card title="Account Details" iconName="standard:account">
+            <p><b>Name:</b> {!v.selectedAccount.Name}</p>
+            <p><b>Industry:</b> {!v.selectedAccount.Industry}</p>
+            <p><b>Annual Revenue:</b> {!v.selectedAccount.AnnualRevenue}</p>
+        </lightning:card>
+    </aura:if>
+</aura:component>

@@ -1,0 +1,32 @@
+<template>
+    <lightning-card title="cepSugestoes/CepAutocompleteController" icon-name="utility:search">
+        <div class="slds-m-around_medium">
+            <!-- Campo de entrada -->
+            <lightning-input 
+                type="text" 
+                label="Digite o CEP ou parte do endereço" 
+                onchange={handleInputChange} 
+                placeholder="Ex.: 11540 ou Rua das Flores">
+            </lightning-input>
+
+            <!-- Lista de sugestões -->
+            <template if:true={suggestions}>
+                <ul class="slds-list_vertical slds-m-top_small">
+                    <template for:each={suggestions} for:item="suggestion">
+                        <li 
+                            key={suggestion} 
+                            class="slds-item suggestion-item" 
+                            onclick={handleSelect}>
+                            {suggestion}
+                        </li>
+                    </template>
+                </ul>
+            </template>
+
+            <!-- Mensagem de erro -->
+            <template if:true={error}>
+                <p class="slds-text-color_error">{error}</p>
+            </template>
+        </div>
+    </lightning-card>
+</template>

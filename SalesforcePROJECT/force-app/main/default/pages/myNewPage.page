@@ -1,0 +1,28 @@
+<apex:page >
+ 
+  <h1>Onde posso editar uma visual force page</h1>
+<br/><br/>
+      1) Page editor
+ 
+<br/>
+      2) Dev Console
+<br/>
+      3) IDE(Vs code)
+<br/>
+      4) Configs no SETUP
+<br/><br/>
+<h1>Onde posso editar um Aura/ Lightning Component</h1>
+<br/><br/>
+ 
+ 
+      1) Dev Console
+<br/>
+      2) IDE(Vs code)
+
+<br/><br/>
+<h1>Onde posso editar um LWC( Lightning WEB Component)?</h1>
+<br/><br/>
+ 
+<br/>
+      1) IDE(Vs code)
+</apex:page>

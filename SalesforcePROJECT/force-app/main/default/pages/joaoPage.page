@@ -1,0 +1,32 @@
+<apex:page controller="Accountpage" LightningStylesheets="true">
+    <apex:form >
+        <apex:pageMessages />
+
+        <apex:pageBlock title="Registro de Conta" >
+            <apex:pageBlockSection title="Detalhes da Conta" columns="2">
+                <apex:inputField value="{!account.Name}" label="Nome da Conta" />
+                <apex:inputField value="{!account.Phone}" label="Telefone" />
+                <apex:inputField value="{!account.Industry}" label="Indústria" />
+                <apex:inputField value="{!account.Rating}" label="Classificação" />
+                <apex:inputField value="{!account.Website}" label="Website" />
+                <apex:inputField value="{!account.BillingCity}" label="Cidade de Faturamento" />
+            </apex:pageBlockSection>
+
+            <apex:pageBlockButtons >
+                <apex:commandButton value="Salvar" action="{!save}" />
+                <apex:commandButton value="Cancelar" action="{!cancel}" immediate="true" />
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+
+        <apex:pageBlock title="Contas Existentes">
+            <apex:pageBlockTable value="{!accounts}" var="acc">
+                <apex:column value="{!acc.Name}" headerValue="Nome" />
+                <apex:column value="{!acc.Phone}" headerValue="Telefone" />
+                <apex:column value="{!acc.Industry}" headerValue="Indústria" />
+                <apex:column value="{!acc.Rating}" headerValue="Classificação" />
+                <apex:column value="{!acc.Website}" headerValue="Website" />
+                <apex:column value="{!acc.BillingCity}" headerValue="Cidade de Faturamento" />
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

@@ -1,0 +1,70 @@
+<template>
+    <lightning-card title="cepAberto/CepAbertoServiceIntegracao">
+        <div class="slds-p-horizontal_medium slds-m-bottom_medium">
+            <div class="slds-grid slds-wrap slds-gutters">
+                <!-- Campo CEP -->
+                <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2">
+                    <lightning-input 
+                        label="Digite o CEP"
+                        value={cep} 
+                        onchange={handleCepChange}
+                        type="text">
+                    </lightning-input>
+                </div>
+
+                <!-- Campo Estado -->
+                <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2">
+                    <lightning-input 
+                        label="Estado"
+                        name="estado"
+                        value={estado} 
+                        onchange={handleAddressChange}
+                        type="text">
+                    </lightning-input>
+                </div>
+
+                <!-- Campo Cidade -->
+                <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2">
+                    <lightning-input 
+                        label="Cidade"
+                        name="cidade"
+                        value={cidade} 
+                        onchange={handleAddressChange}
+                        type="text">
+                    </lightning-input>
+                </div>
+
+                <!-- Campo Logradouro -->
+                <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2">
+                    <lightning-input 
+                        label="Logradouro"
+                        name="logradouro"
+                        value={logradouro} 
+                        onchange={handleAddressChange}
+                        type="text">
+                    </lightning-input>
+                </div>
+            </div>
+
+            <!-- Sugestões -->
+            <template if:true={suggestions}>
+                <div class="slds-m-top_medium">
+                    <ul class="slds-list_dotted">
+                        <template for:each={suggestions} for:item="suggestion">
+                            <li key={suggestion.cep} class="slds-item">
+                                {suggestion.logradouro} - {suggestion.bairro}, {suggestion.cidade.nome} - {suggestion.estado.sigla}
+                            </li>
+                        </template>
+                    </ul>
+                </div>
+            </template>
+
+            <!-- Mensagem de Erro -->
+            <template if:true={errorMessage}>
+                <div class="slds-text-color_error slds-m-top_medium">
+                    {errorMessage}
+                </div>
+            </template>
+        </div>
+    </lightning-card>
+</template>
