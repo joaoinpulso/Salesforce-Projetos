@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label><!-- Dreamhouse --></label>
+        <name>Dreamhouses</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Energy Consultations --></label>
+        <name>Energy_Consultations</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Filmes Gram --></label>
+        <name>Filmes_Gram</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- LWC Recipes --></label>
+        <name>LWC_Recipes</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- LWC Recipes Console App --></label>
+        <name>LWC_Recipes_Console_App</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Ursus Park --></label>
+        <name>Ursus_Park</name>
+    </customApplications>
+    <customLabels>
+        <label><!-- Erro exibido quando vai deletar uma conta com oportunidades vinculadas --></label>
+        <name>ErroContaOppVinculada</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- tt_BaseURL --></label>
+        <name>trlhdtips__tt_BaseURL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- tt_ConfimCancel --></label>
+        <name>trlhdtips__tt_ConfimCancel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- tt_ConfimOK --></label>
+        <name>trlhdtips__tt_ConfimOK</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- tt_EnterPackageId --></label>
+        <name>trlhdtips__tt_EnterPackageId</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- tt_InvalidPackageId --></label>
+        <name>trlhdtips__tt_InvalidPackageId</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- tt_ResetPasswordFail --></label>
+        <name>trlhdtips__tt_ResetPasswordFail</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- tt_ResetPasswordSuccess --></label>
+        <name>trlhdtips__tt_ResetPasswordSuccess</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- tt_ResetPasswordTitle --></label>
+        <name>trlhdtips__tt_ResetPasswordTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- tt_ResetPasswordWarning --></label>
+        <name>trlhdtips__tt_ResetPasswordWarning</name>
+    </customLabels>
+    <customTabs>
+        <label><!-- All Options --></label>
+        <name>All_Options</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Apex --></label>
+        <name>Apex</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Aura Interop --></label>
+        <name>Aura_Interoperability</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Bike Card --></label>
+        <name>Bike_Card</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Componente LWC --></label>
+        <name>Componente_LWC</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Composition --></label>
+        <name>Composition</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Data Service --></label>
+        <name>Data_Service</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Datatable --></label>
+        <name>Datatable</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Dynamic Interactions --></label>
+        <name>Dynamic_Interactions</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Child-to-Parent --></label>
+        <name>Events</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Field Sales App --></label>
+        <name>Field_Sales_App</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- GraphQL --></label>
+        <name>GraphQL</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Hello --></label>
+        <name>Hello</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Light DOM --></label>
+        <name>Light_DOM</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Message Service --></label>
+        <name>Message_Service</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Misc --></label>
+        <name>Misc_Techniques</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Navigation --></label>
+        <name>Navigation</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Parent-to-Child --></label>
+        <name>Parent_to_Child</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Record Picker --></label>
+        <name>Record_Picker</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Refresh View --></label>
+        <name>Refresh_View</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Segunda --></label>
+        <name>Segunda</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Selecione bikes --></label>
+        <name>Selecione_bikes</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Styling --></label>
+        <name>Styling</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Wire --></label>
+        <name>Wire</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Workspace API --></label>
+        <name>Workspace_API</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Workspace API Tab Launcher --></label>
+        <name>Workspace_API_Tab_Launcher</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- 3rd Party Libs --></label>
+        <name>X3rd_Party_Libs</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- meu aura tab --></label>
+        <name>meu_aura_tab</name>
+    </customTabs>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Casos_com_prioridade_alta_daily</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Clona_Case_Fechado</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Closed_Won_Opportunities</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <choices>
+                <name>X11am_2pm</name>
+            </choices>
+            <choices>
+                <name>X2pm_5pm</name>
+            </choices>
+            <choices>
+                <name>X8am_11am</name>
+            </choices>
+            <screens>
+                <fields>
+                    <inputParameters>
+                        <name>label</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>messageToggleActive</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>messageToggleInactive</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>value</name>
+                        <value/>
+                    </inputParameters>
+                    <name>CloseCase</name>
+                </fields>
+                <fields>
+                    <name>Questions_Section1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value/>
+                    </inputParameters>
+                    <name>Questions_Section1_Column1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value/>
+                    </inputParameters>
+                    <name>Questions_Section1_Column2</name>
+                </fields>
+                <fields>
+                    <name>SayThisText</name>
+                </fields>
+                <fields>
+                    <name>ScreenDescription</name>
+                    <validationRule/>
+                </fields>
+                <fields>
+                    <name>ScreenSubject</name>
+                </fields>
+                <name>Questions</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>CallbackTimes</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>columns</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>label</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>maxRowSelection</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>minRowSelection</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>selectionMode</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>shouldDisplayLabel</name>
+                        <value/>
+                    </inputParameters>
+                    <name>PointOfContact</name>
+                </fields>
+                <fields>
+                    <name>Questions_Page_2_Section1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value/>
+                    </inputParameters>
+                    <name>Questions_Page_2_Section1_Column1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value/>
+                    </inputParameters>
+                    <name>Questions_Page_2_Section1_Column2</name>
+                </fields>
+                <fields>
+                    <name>Questions_Page_2_Section2</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value/>
+                    </inputParameters>
+                    <name>Questions_Page_2_Section2_Column1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value/>
+                    </inputParameters>
+                    <name>Questions_Page_2_Section2_Column2</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value/>
+                    </inputParameters>
+                    <name>Questions_Page_2_Section2_Column3</name>
+                </fields>
+                <fields>
+                    <name>ScreenPriority</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>fieldApiName</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>label</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>objectApiName</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>recordId</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>required</name>
+                        <value/>
+                    </inputParameters>
+                    <name>ScreenReviewer</name>
+                </fields>
+                <fields>
+                    <name>el_0</name>
+                </fields>
+                <name>Questions_Page_2</name>
+            </screens>
+            <screens>
+                <fields>
+                    <inputParameters>
+                        <name>label</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>multiple</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>recordId</name>
+                        <value/>
+                    </inputParameters>
+                    <name>Upload</name>
+                </fields>
+                <name>UploadImages</name>
+            </screens>
+        </flows>
+        <fullName>Create_Case_for_Contact</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Cria_o</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>CPF</name>
+                </fields>
+                <fields>
+                    <name>Nome</name>
+                </fields>
+                <fields>
+                    <name>Telefone</name>
+                </fields>
+                <name>CriarConta</name>
+            </screens>
+        </flows>
+        <fullName>Fluxo_1_Criar_Conta</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <choices>
+                <name>Confirm_product</name>
+            </choices>
+            <choices>
+                <name>Follow_up_call</name>
+            </choices>
+            <choices>
+                <name>Identify_contacts</name>
+            </choices>
+            <choices>
+                <name>Research</name>
+            </choices>
+            <choices>
+                <name>Site_visit</name>
+            </choices>
+            <screens>
+                <fields>
+                    <name>Estimated_Amount</name>
+                </fields>
+                <fields>
+                    <name>Estimated_Close_Date</name>
+                    <validationRule/>
+                </fields>
+                <fields>
+                    <name>New_or_Existing_Customer</name>
+                </fields>
+                <fields>
+                    <name>NextStepsWarning</name>
+                </fields>
+                <fields>
+                    <name>Next_Steps</name>
+                </fields>
+                <fields>
+                    <name>requirement</name>
+                </fields>
+                <name>Opp_Fields</name>
+            </screens>
+        </flows>
+        <fullName>New_Bot_Opp</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Review_Opportunity_with_Account_Owner</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>Movies</name>
+                </fields>
+                <fields>
+                    <name>Name</name>
+                </fields>
+                <fields>
+                    <name>Notass</name>
+                </fields>
+                <name>FormSimples</name>
+            </screens>
+        </flows>
+        <fullName>Scren_Flow_FAT</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>CPF</name>
+                </fields>
+                <fields>
+                    <name>Nome</name>
+                </fields>
+                <fields>
+                    <name>Telefone</name>
+                </fields>
+                <name>Editar_Informa_es</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>errorrMensagem_0</name>
+                </fields>
+                <name>ExibeMensagemDaClasseInvocable_0</name>
+            </screens>
+        </flows>
+        <fullName>Segundo_Fluxo_Editar_Informa_es</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <textTemplates>
+                <name>BodyChatter</name>
+            </textTemplates>
+        </flows>
+        <fullName>Verifica_os_contatos_semanalmente</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <textTemplates>
+                <name>BodyChatter</name>
+            </textTemplates>
+        </flows>
+        <fullName>Verifique_os_campos_de_contato_diariamente</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <customErrorMessages>
+                <developerName>Error_ao_criar</developerName>
+            </customErrorMessages>
+        </flows>
+        <fullName>avaliacaocreateorupdate</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <choices>
+                <name>S_149a89f6_e93f_4402_b3c5_24148bee75c0</name>
+            </choices>
+            <choices>
+                <name>S_3792e0ac_4617_447c_b1de_9c5075f6b9d1</name>
+            </choices>
+            <choices>
+                <name>S_895a92c9_a675_4047_bd25_4b67d875a37b</name>
+            </choices>
+            <choices>
+                <name>S_a0e9d086_3411_4d8f_950d_f2758a33fc68</name>
+            </choices>
+            <choices>
+                <name>S_f6dcd3bd_2efc_4cdd_a3d5_4fb54e458aac</name>
+            </choices>
+            <screens>
+                <fields>
+                    <name>S_55cf98c1_dc1a_4104_b385_89dab3632c94</name>
+                </fields>
+                <fields>
+                    <name>S_62185e3d_591b_4ade_9910_383fb5ff11cf</name>
+                </fields>
+                <name>surveyQuestionPage</name>
+            </screens>
+            <textTemplates>
+                <name>thankYouDescriptionTextTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>thankYouLabelTextTemplate</name>
+            </textTemplates>
+        </flows>
+        <fullName>customer_satisfaction</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <textTemplates>
+                <name>sasa</name>
+            </textTemplates>
+        </flows>
+        <fullName>envia_EMAIL</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>S_50a1d272_b234_4f92_a8fe_fa15dc797af4</name>
+                </fields>
+                <fields>
+                    <name>S_8b93e61a_35a5_435c_9c3d_30831d2252d6</name>
+                </fields>
+                <name>surveyQuestionPage</name>
+            </screens>
+            <textTemplates>
+                <name>thankYouDescriptionTextTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>thankYouLabelTextTemplate</name>
+            </textTemplates>
+        </flows>
+        <fullName>net_promoter_score</fullName>
+    </flowDefinitions>
+    <prompts>
+        <name>CompositionWalkthrough</name>
+        <promptVersions>
+            <name>Composition Walkthrough Step 1</name>
+            <stepNumber>1</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Composition Walkthrough Step 2</name>
+            <stepNumber>2</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Composition Walkthrough Step 3</name>
+            <stepNumber>3</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Composition Walkthrough Step 4</name>
+            <stepNumber>4</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Composition Walkthrough Step 5</name>
+            <stepNumber>5</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Composition Walkthrough Step 6</name>
+            <stepNumber>6</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Composition Walkthrough Step 7</name>
+            <stepNumber>7</stepNumber>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>DataWalkthrough</name>
+        <promptVersions>
+            <name>Data Walkthrough Step 1</name>
+            <stepNumber>1</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Data Walkthrough Step 2</name>
+            <stepNumber>2</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Data Walkthrough Step 3</name>
+            <stepNumber>3</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Data Walkthrough Step 4</name>
+            <stepNumber>4</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Data Walkthrough Step 5</name>
+            <stepNumber>5</stepNumber>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>HelloWalkThrough</name>
+        <promptVersions>
+            <name>Hello Walk Through Step 1</name>
+            <stepNumber>1</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Hello Walk Through Step 2</name>
+            <stepNumber>2</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Hello Walk Through Step 3</name>
+            <stepNumber>3</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Hello Walk Through Step 4</name>
+            <stepNumber>4</stepNumber>
+        </promptVersions>
+        <promptVersions>
+            <name>Hello Walk Through Step 5</name>
+            <stepNumber>5</stepNumber>
+        </promptVersions>
+    </prompts>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewContact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewEvent --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewNote --></label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewOpportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewTask --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Nova Campanha --></label>
+        <name>Nova_Campanha</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <reportTypes>
+        <description><!-- Orchestration Run Logs Spring &apos;24 --></description>
+        <label><!-- Orchestration Run Logs Spring &apos;24 --></label>
+        <name>flow_orchestration_log_ootb_crt_two_four_eight</name>
+        <sections>
+            <label><!-- Orchestration Run Log --></label>
+            <name>Orchestration Run Log</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Orchestration Runs Spring &apos;24 --></description>
+        <label><!-- Orchestration Runs Spring &apos;24 --></label>
+        <name>flow_orchestration_run_ootb_crt_two_four_eight</name>
+        <sections>
+            <label><!-- Orchestration Runs --></label>
+            <name>Orchestration Runs</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Orchestration Stage Runs Spring &apos;24 --></description>
+        <label><!-- Orchestration Stage Runs Spring &apos;24 --></label>
+        <name>flow_orchestration_stage_run_ootb_crt_two_four_eight</name>
+        <sections>
+            <label><!-- Orchestration Stage Runs --></label>
+            <name>Orchestration Stage Runs</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Orchestration Step Runs Spring &apos;24 --></description>
+        <label><!-- Orchestration Step Runs Spring &apos;24 --></label>
+        <name>flow_orchestration_step_run_ootb_crt_two_four_eight</name>
+        <sections>
+            <label><!-- Orchestration Step Runs --></label>
+            <name>Orchestration Step Runs</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Orchestration Work Items Spring &apos;24 --></description>
+        <label><!-- Orchestration Work Items Spring &apos;24 --></label>
+        <name>flow_orchestration_work_item_ootb_crt_two_four_eight</name>
+        <sections>
+            <columns>
+                <label><!-- Orchestration Step Run: Label --></label>
+                <name>Orchestration Step Run: Label</name>
+            </columns>
+            <columns>
+                <label><!-- Orchestration Step Run: Name --></label>
+                <name>Orchestration Step Run: Name</name>
+            </columns>
+            <columns>
+                <label><!-- Orchestration Step Run: Status --></label>
+                <name>Orchestration Step Run: Status</name>
+            </columns>
+            <label><!-- Orchestration Step Runs --></label>
+            <name>Orchestration Step Runs</name>
+        </sections>
+        <sections>
+            <columns>
+                <label><!-- Assigned Group or Queue --></label>
+                <name>Assigned Group or Queue</name>
+            </columns>
+            <columns>
+                <label><!-- Assigned User --></label>
+                <name>Assigned User</name>
+            </columns>
+            <label><!-- Orchestration Work Items --></label>
+            <name>Orchestration Work Items</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Screen Flows --></description>
+        <label><!-- Screen Flows --></label>
+        <name>screen_flows_prebuilt_crt</name>
+        <sections>
+            <label><!-- Flow Interview Log Entries --></label>
+            <name>Flow Interview Log Entries</name>
+        </sections>
+        <sections>
+            <label><!-- Flow Interview Logs --></label>
+            <name>Flow Interview Logs</name>
+        </sections>
+    </reportTypes>
+</Translations>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Movie</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Movies</value>
+    </caseValues>
+    <layouts>
+        <layout>Movie Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Criar ou Atualizar Filme --></label>
+        <name>Criar_ou_Atualizar_Filme</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- TesteAction --></label>
+        <name>TesteAction</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

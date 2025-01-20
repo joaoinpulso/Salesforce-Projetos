@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Regional Dispatch</name>
+    <queueMembers>
+        <users>
+            <user>integration@00dak00000awciueaz.com</user>
+            <user>joaomenezess147@wise-badger-uqqy5w.com</user>
+            <user>insightssecurity@00dak00000awciueaz.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

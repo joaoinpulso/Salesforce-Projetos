@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>ErroContaOppVinculada</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Erro exibido quando vai deletar uma conta com oportunidades vinculadas</shortDescription>
+        <value>Erro: não é possível deletar essa conta pois possui oportunidade vinculada</value>
+    </labels>
+</CustomLabels>
