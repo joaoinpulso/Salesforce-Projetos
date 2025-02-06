@@ -5,13 +5,14 @@
     Por exemplo, esta classe REST Apex de exemplo usa um método.
     O getRecordmétodo é uma chamada REST API personalizada.
     Ele é anotado com @HttpGete é invocado para uma solicitação GET.*/
-@RestResource(urlMapping='/Account/*')
-global with sharing class MyRestResource {
-    @HttpGet
-    global static Account getRecord() {
-        Account account = new Account();
-        return account;// Add your code
-    }
+
+        @RestResource(urlMapping='/Account/*')
+        global with sharing class MyRestResource {
+            @HttpGet
+            global static Account getRecord() {
+                Account account = new Account();
+                return account;// Add your code
+            }
     /*
     Como você pode ver, a classe é anotada com @RestResource(urlMapping='/Account/*'). 
     O ponto de extremidade base para Apex REST é https://yourInstance.my.salesforce.com/services/apexrest/. 
