@@ -12,7 +12,7 @@
 		<members>WarehouseSyncScheduleTest</members>
 		<members>trlhdtips__tt_UtilController</members>
 		<members>trlhdtips__tt_UtilControllerTest</members>
-		<name>ApexClass</name>
+		<name>ApexClass</name> 
 	</types>
 	<types>
 		<members>*</members>
