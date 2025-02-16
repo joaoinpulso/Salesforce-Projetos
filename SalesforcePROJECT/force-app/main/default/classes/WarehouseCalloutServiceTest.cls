@@ -1,6 +1,6 @@
 @isTest
 
-private class WareHouseCalloutServiceTest {   
+private class WarehouseCalloutServiceTest {   
     @isTest  
     static void testWareHouseCallout(){
         Test.startTest();
