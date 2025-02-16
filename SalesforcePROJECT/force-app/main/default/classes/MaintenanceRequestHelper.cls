@@ -48,7 +48,7 @@ public with sharing class MaintenanceRequestHelper {
                 if (ciclosManutencao.containsKey(cc.Id)) {
                     nc.Date_Due__c = Date.today().addDays((Integer) ciclosManutencao.get(cc.Id));
                 } else {
-                    nc.Date_Due__c = Date.today().addDays((Integer) cc.Equipment__r.Maintenance_Cycle__c);
+                   // nc.Date_Due__c = Date.today().addDays((Integer) cc.Equipment__r.Maintenance_Cycle__c);
                 }
                 
                 novosCasos.add(nc);
